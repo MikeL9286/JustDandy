@@ -1,0 +1,1047 @@
+﻿
+body
+{
+    /*min-width: 610px;*/
+    color: #000;
+    font-size: .85em;
+    font-family: "Segoe UI" , Verdana, Helvetica, Sans-Serif;
+    margin: 0;
+}
+
+div.ContentWrapper
+{
+    width: 960px;
+    height: 100%;
+    margin: 55px auto 5px auto;
+    border: 5px solid #fff;
+    box-shadow: 0 0 10px rgba(198, 198, 197, 0.9);
+    -moz-box-shadow: 0 0 10px rgba(198, 198, 197, 0.9);
+    -webkit-box-shadow: 0 0 10px rgba(198, 198, 197, 0.9);
+}
+
+div.ContentWrapper:before, div.ContentWrapper:after
+{
+    content: "";
+    position: absolute;
+    left: 0px;
+}
+
+div.Content
+{
+    padding: 0 10px 10px 10px;
+    margin: 0 auto 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 2px #ccc;
+    -moz-box-shadow: 0 0 2px #ccc;
+    -webkit-box-shadow: 0 0 2px #ccc;
+}
+
+a
+{
+    color: #000;
+    outline: none;
+    text-decoration: none;
+}
+
+a img
+{
+    border: none;
+}
+
+a:link, a:visited, a:active, a:hover
+{
+    text-decoration: none;
+}
+
+header, footer, hgroup, section
+{
+    display: block;
+    position: relative;
+}
+
+header:before, header:after
+{
+    content: "";
+    display: table;
+}
+
+header:after
+{
+    clear: both;
+}
+
+header > div
+{
+    float: left;
+}
+
+nav
+{
+    float: left;
+    margin: 50px 0 0 20px;
+    border-bottom: 1px solid black;
+}
+
+nav > a
+{
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    color: #000;
+    padding-bottom: 4px;
+    font-family: Raleway, Georgia, Sans-Serif;
+    font-variant: small-caps;
+    font-size: 1.4em;
+    margin-right: 40px;
+}
+
+nav > a:first-of-type
+{
+    margin-left: 40px;
+}
+
+nav > a:hover
+{
+    color: #f9aab3;
+}
+
+.float-left
+{
+    float: left;
+}
+
+.float-right
+{
+    float: right;
+}
+
+.clear-fix:after
+{
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    color: #000;
+    margin: 0;
+    padding-bottom: 0;
+}
+
+h1
+{
+    font-size: 2em;
+}
+
+h2
+{
+    font-size: 1.75em;
+}
+
+h3
+{
+    font-size: 1.2em;
+}
+
+h4
+{
+    font-size: 1.1em;
+}
+
+h5, h6
+{
+    font-size: 1em;
+}
+
+h5 a:link, h5 a:visited, h5 a:active
+{
+    padding: 0;
+    text-decoration: none;
+}
+
+
+/* main layout
+----------------------------------------------------------*/
+#body
+{
+    background-color: #fff;
+    font: normal normal 1.2em Arial, Georgia, Utopia, sans-serif;
+    line-height: 20px;
+    letter-spacing: .1em;
+}
+
+div.hr
+{
+    width: 100%;
+    height: 15px;
+    background: #fff url(http://www.holladayhealthandfitness.com/Content/images/content-divider.gif) no-repeat scroll center;
+}
+
+div.hr > hr
+{
+    display: none;
+}
+
+/* Blog styles
+------------------------------------*/
+
+div#blogContainer
+{
+}
+
+div#blog
+{
+    width: 550px;
+    float: left;
+    margin: 0 30px 0 30px;
+}
+.tileWrapper 
+{
+    position:relative;
+    margin-bottom:30px;
+    box-shadow: 0 0 5px black;
+    moz-box-shadow: 0 0 5px black;
+    webkit-box-shadow: 0 0 5px black;
+}
+.tileWrapper:hover
+{
+    opacity:.8;   
+}
+.tileWrapper a:hover
+{
+    color: Black;
+}
+.tile {
+    height:300px;
+    background-color:#ccc;
+}
+.tileSnapshot {
+    height:100%;
+    background-color:#eee;
+    overflow:hidden;
+}
+.tilePreview {
+    position:absolute;
+    top:240px;
+    height:50px;
+    width: 530px;
+    background-color:#ccc;
+    padding: 5px 10px 5px 10px;
+    opacity:.9;
+}
+.tileTitle {
+	float:left;
+}
+.tileDate {
+	float:right;
+}
+.tileSummary {
+    clear:both;
+}
+
+div#addContainer
+{
+    width: 300px;
+    float: left;
+    margin: 18px 30px 0 0;
+}
+
+div.addSection 
+{
+    margin-bottom: 30px;
+}
+
+div.blockLinks
+{
+    width: 100%;
+    padding: 7px 0 7px 0;
+    text-align: center;
+}
+
+div.blockLinks > a
+{
+    display: block;
+    margin: 3px 0 3px 0;
+    padding: 5px 0 5px 0;
+    font: normal normal 15px Arial, sans-serif;
+    color: black;
+    opacity: .75;
+    letter-spacing: 1px;
+}
+
+div.broken > a
+{
+    padding: 10px 0 10px 0;
+    background-color: #EBE4CA;
+}
+
+div.broken > a:hover
+{
+    opacity: 1;
+    text-decoration: none;
+}
+
+.shopImg:hover {
+    opacity: .8;
+}
+
+
+/* Pinit Button */
+div.pinContainer {
+  position: relative;
+  display: inline-block;
+  opacity: 1;
+}
+
+div.pinContainer:hover {
+  opacity: .8;
+}
+
+div.pinContainer:hover a.pinIt {
+      display: inline-block;
+}
+ 
+/* button style, and center it */
+a.pinIt {
+    position:absolute;
+    top: 0%;
+    left: 75%;
+    display: none;
+    z-index: 250;
+    opacity: .9;
+}
+
+a.pinIt:hover {
+  opacity: 1;
+}
+
+
+/* Post Archive
+-------------------------*/
+select#postArchive {
+    width: 100%;
+    height: 30px;
+    margin: 0;
+}
+
+select#postArchive:focus {
+    outline-color: rgb(255, 155, 200);
+}
+
+
+/* Instagram
+------------------------------------*/
+.shopImg:hover {
+  opacity: .8;
+}
+
+
+/* Where I Shop
+------------------------------------*/
+div.pink {
+  background-color: #FBDEDF;
+}
+
+
+/* Favorite Reads
+------------------------------------*/
+div.beige {
+  background-color: #F2ECDD;
+}
+
+
+/* Block Links
+------------------------------------*/
+div.blockLinks {
+  width: 100%;
+  margin: -7px 0 -7px 0;
+  padding: 7px 0 7px 0;
+  text-align: center;
+}
+
+div.blockLinks > a {
+  display: block;
+  margin: 3px 0 3px 0;
+  padding: 5px 0 5px 0;
+  font: normal normal 15px Open Sans Condensed;
+  color: black;
+  opacity: .75;
+  letter-spacing: 1px;
+}
+
+div.broken > a {
+  padding: 10px 0 10px 0;
+}
+
+div.broken > a:hover{
+  opacity: 1;
+  text-decoration: none;
+}
+
+/* Slideshow styles
+------------------------------------*/
+
+.SlideContainer
+{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 940px;
+    height: 400px;
+    overflow: hidden;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.SlideContainer img
+{
+    height: 100%;
+    width: 940px;
+    max-width: inherit;
+}
+
+.SlideContainer div[id*=slide]
+{
+    display: block;
+    position: absolute;
+    left: 940px;
+}
+
+.SlideContainer div.slideLeftQuick
+{
+    left: -940px;
+}
+
+.SlideContainer div.slideLeft
+{
+    left: -940px;
+    transition: left 1s;
+    -webkit-transition: left 1s;
+}
+
+.SlideContainer div.slideRight
+{
+    left: 940px;
+    transition: left 1s;
+    -webkit-transition: left 1s;
+}
+
+.SlideContainer div.live
+{
+    z-index: 5;
+    left: 0px;
+    transition: left 1s;
+    -webkit-transition: left 1s;
+}
+
+.SlideToolbar
+{
+    position: absolute;
+    bottom: 0px;
+    z-index: 10;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+}
+
+.SlideToolbarShadow
+{
+    position: absolute;
+    bottom: 0px;
+    z-index: 9;
+    width: 100%;
+    height: 30px;
+    background-color: #fff;
+    opacity: .7;
+}
+
+.SlideToolbar > ul > li
+{
+    display: inline-block;
+    height: 14px;
+    width: 14px;
+    border-radius: 7px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    background-color: #222;
+    cursor: pointer;
+    margin: 0 5px 0 5px;
+}
+
+.SlideBlobs
+{
+    margin-top: 7px;
+}
+
+.Portal
+{
+    height: 300px;
+    width: 306px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.blogPortal
+{
+    margin-right: 10px;
+}
+
+.shopPortal
+{
+    margin-right: 10px;
+}
+
+.aboutPortal
+{
+    /* about portal styles */
+}
+
+.Portal img
+{
+    height: 100%;
+    width: 100%;
+}
+
+.Portal:hover img
+{
+    opacity: .9;
+}
+
+.Portal:hover p
+{
+    text-decoration: underline;
+}
+
+.portalTape
+{
+    position: absolute;
+    margin: 10px 0 0 10px;
+    width: 100px;
+    opacity: .8;
+    height: 50px;
+    background: url('../../Images/pinkTape.png') no-repeat;
+    transform: rotate(-4deg);
+    -moz-transform: rotate(-4deg);
+    -webkit-transform: rotate(-4deg);
+    z-index: 3;
+}
+
+.portalText
+{
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    position: absolute;
+    margin: 10px 0 0 10px;
+    color: White;
+    font-family: Raleway;
+    font-size: 1.5em;
+    line-height: 2.2;
+    letter-spacing: 2px;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    z-index: 4;
+}
+
+footer
+{
+    width: 100%;
+    background-color: #eaeaea;
+    text-align: center;
+    padding: 10px 0 10px 0;
+    font-family: Segoe UI, Raleway, Arial, sans-serif;
+}
+
+ul
+{
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-padding-start: 0;
+}
+
+/* social icons
+---------------------------------------------------------*/
+.SocialIcons
+{
+    position: fixed;
+    top: 0px;
+    height: 50px;
+    width: 100%;
+    background-color: #000;
+    text-align: center;
+    z-index: 100;
+}
+
+.SocialIcons ul
+{
+    padding-top: 15px;
+    list-style-type: none;
+    -webkit-padding-start: 0;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    height: 100%;
+    width: 960px;
+    margin: 0 auto 0 auto;
+    text-align: right;
+}
+
+.SocialIcons ul > li
+{
+    display: inline;
+    margin: 0 5px 0 5px;
+}
+
+.SocialIcons ul > li:hover
+{
+    opacity: .85;
+}
+
+.SocialIcons a
+{
+    display: inline-block;
+    background-image: url('../Images/socialmeeds.png');
+    height: 17px;
+    width: 20px;
+}
+
+.SocialIcons a#facebook
+{
+    background-position: 0px -17px;
+}
+
+.SocialIcons a#facebook:hover
+{
+    opacity: .8;
+}
+
+.SocialIcons a#twitter
+{
+    background-position: 0px 0px;
+}
+
+.SocialIcons a#twitter:hover
+{
+    opacity: .8;
+}
+
+.SocialIcons a#bloglovin
+{
+    background-position: 0px -35px;
+    height: 16px;
+}
+
+.SocialIcons a#pinterest
+{
+    background-position: 0px -67px;
+}
+
+.SocialIcons a#pinterest:hover
+{
+    opacity: .8;
+}
+
+.SocialIcons a#instagram
+{
+    background-position: 0px -51px;
+}
+
+.SocialIcons a#instagram:hover
+{
+    opacity: .8;
+}
+
+/* About sections
+---------------------------------------------------------*/
+section .About
+{
+    height: 200px;
+    width: 100%;
+    margin-bottom: 20px;
+    opacity: .8;
+}
+
+div .About .Highlight
+{
+    height: 100%;
+    width: 350px;
+    background-color: #999;
+    display: inline-block;
+    float: left;
+}
+
+div .About .Keyword
+{
+    display: inline-block;
+    font-family: "Lucida Grande" , Verdana, Sans-Serif;
+    font-weight: 500;
+    font-size: 2.3em;
+    float: left;
+    text-align: center;
+    margin-top: 80px;
+    width: 590px;
+}
+
+/* info and errors */
+.message-info
+{
+    border: 1px solid;
+    clear: both;
+    padding: 10px 20px;
+}
+
+.message-error
+{
+    clear: both;
+    color: #e80c4d;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin: 20px 0 10px 0;
+}
+
+.message-success
+{
+    color: #7ac0da;
+    font-size: 1.3em;
+    font-weight: bold;
+    margin: 20px 0 10px 0;
+}
+
+.error
+{
+    color: #e80c4d;
+}
+
+/* styles for validation helpers */
+.field-validation-error
+{
+    color: #e80c4d;
+    font-weight: bold;
+}
+
+.field-validation-valid
+{
+    display: none;
+}
+
+input.input-validation-error
+{
+    border: 1px solid #e80c4d;
+}
+
+input[type="checkbox"].input-validation-error
+{
+    border: 0 none;
+}
+
+.validation-summary-errors
+{
+    color: #e80c4d;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.validation-summary-valid
+{
+    display: none;
+}
+
+/********************
+*   Mobile Styles   *
+********************/
+@media only screen and (max-width: 1000px) and (min-width: 750px)
+{
+    div.ContentWrapper
+    {
+        width: 750px;
+        min-width: 750px;
+        margin: 10px auto 5px auto;
+    }
+
+    header
+    {
+        text-align: center;
+    }
+
+    header > div
+    {
+        float: none;
+    }
+
+    nav
+    {
+        float: none;
+        margin: 0 50px 30px 50px;
+    }
+
+    .SlideContainer
+    {
+        width: 730px; /*height: 450px;*/
+        height: 320px;
+    }
+
+    .SlideContainer img
+    {
+        height: 100%;
+        width: 730px;
+    }
+
+    .SlideContainer div[id*=slide]
+    {
+        left: 730px;
+    }
+
+    .SlideContainer div.slideLeftQuick
+    {
+        left: -730px;
+    }
+
+    .SlideContainer div.slideLeft
+    {
+        left: -730px;
+        transition: none;
+        -webkit-transition: none;
+    }
+
+    .SlideContainer div.slideRight
+    {
+        left: 730px;
+        transition: none;
+        -webkit-transition: none;
+    }
+
+    .SlideContainer div.live
+    {
+        z-index: 5;
+        left: 0px;
+        transition: none;
+        -webkit-transition: none;
+    }
+
+    .SocialIcons
+    {
+        position: relative;
+    }
+
+    .SocialIcons ul
+    {
+        height: 100%;
+        width: 730px;
+    }
+
+    .Portal
+    {
+        width: 236px;
+        height: 237px;
+    }
+}
+
+@media only screen and (max-width: 750px) and (min-width: 560px)
+{
+    div.ContentWrapper
+    {
+        width: 540px;
+        min-width: 540px;
+        margin: 10px auto 5px auto;
+    }
+
+    header
+    {
+        text-align: center;
+    }
+
+    header > div
+    {
+        float: none;
+    }
+
+    nav
+    {
+        float: none;
+        margin: 0 20px 30px 20px;
+    }
+
+    .SlideContainer
+    {
+        width: 520px;
+        height: 240px;
+    }
+
+    .SlideContainer img
+    {
+        height: 100%;
+        width: 520px;
+    }
+
+    .SlideContainer div[id*=slide]
+    {
+        left: 520px;
+    }
+
+    .SlideContainer div.slideLeftQuick
+    {
+        left: -520px;
+    }
+
+    .SlideContainer div.slideLeft
+    {
+        left: -520px;
+        transition: none;
+        -webkit-transition: none;
+    }
+
+    .SlideContainer div.slideRight
+    {
+        left: 520px;
+        transition: none;
+        -webkit-transition: none;
+    }
+
+    .SlideContainer div.live
+    {
+        z-index: 5;
+        left: 0px;
+        transition: none;
+        -webkit-transition: none;
+    }
+
+    .SocialIcons
+    {
+        position: relative;
+    }
+
+    .SocialIcons ul
+    {
+        height: 100%;
+        width: 520px;
+        text-align: center;
+    }
+
+    .Portal
+    {
+        width: 166px;
+        height: 165px;
+    }
+}
+
+@media only screen and (max-width: 560px)
+{
+    div.ContentWrapper
+    {
+        width: 250px;
+        min-width: 250px;
+        margin: 10px auto 5px auto;
+    }
+
+    .logo
+    {
+        width: 100%;
+    }
+
+    header
+    {
+        text-align: center;
+    }
+
+    header > div
+    {
+        float: none;
+    }
+
+    nav
+    {
+        float: none;
+        margin: 0 0 10px 0;
+        border-bottom: none;
+    }
+
+    nav > a
+    {
+        display: block;
+        text-align: center;
+        margin-right: 0;
+        background-color: pink;
+        margin-top: 5px;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        padding-top: 3px;
+    }
+
+    nav > a:hover
+    {
+        color: White;
+    }
+
+    nav > a:first-of-type
+    {
+        margin-left: 0;
+        margin-top: 0px;
+    }
+
+    .SlideContainer
+    {
+        width: 230px;
+        height: 120px;
+    }
+
+    .SlideContainer img
+    {
+        width: 230px;
+    }
+
+    .SlideContainer div[id*=slide]
+    {
+        left: 230px;
+    }
+
+    .SlideContainer div.slideLeftQuick
+    {
+        left: -230px;
+        height: 100%;
+    }
+
+    .SlideContainer div.slideLeft
+    {
+        left: -230px;
+        transition: none;
+        -webkit-transition: none;
+    }
+
+    .SlideContainer div.slideRight
+    {
+        left: 230px;
+        transition: none;
+        -webkit-transition: none;
+    }
+
+    .SlideContainer div.live
+    {
+        z-index: 5;
+        left: 0px;
+        transition: none;
+        -webkit-transition: none;
+    }
+
+    .SocialIcons
+    {
+        position: relative;
+    }
+
+    .SocialIcons ul
+    {
+        height: 100%;
+        width: 230px;
+        text-align: center;
+    }
+
+    .Portal
+    {
+        display: none;
+        width: 70px;
+        height: 70px;
+    }
+}

@@ -1,1 +1,44 @@
-"My GitHub Page" 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-language" content="en">
+    <meta content="Fashion,Beauty,Style,Blog,Just,Design,Dandy,JustDandy,Life" name="keywords">
+    <meta content="Hub where you an access all brands of JustDandy." name="description">
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Just Dandy</title>
+	<link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="styles/main.css" rel="Stylesheet" type="text/css" />
+	<script src="scripts/jquery-1.9.1.min.js" type="text/javascript"></script>
+	<script src="scripts/Slideshow.js" type="text/javascript"></script>
+</head>
+<body>
+    <section class="SocialIcons">
+        @Html.Partial("SocialIcons")
+    </section>
+    <div class="ContentWrapper">
+        <div class="Content">
+            <header>
+                <div>
+                    <a href="home">
+                        <img alt="Fancy Things logo" class="logo" src="../../Images/logo_site.png" />
+                    </a>
+                </div>
+                <nav>
+                    <a href="blog">Blog</a>
+                    <a href="http://www.etsy.com/shop/shopfancythings" target="_blank">Shop</a> 
+                    <a href="http://www.instagram.com/fancythingsblog" target="_blank">Instagram</a> 
+                    <a href="http://www.fancythingsblog.com/p/about.html">About</a>
+                    <a href="#">As Seen</a>
+                </nav>
+            </header>
+            <div id="body">
+                @RenderBody()
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2011 - JustDandy</p>
+    </footer>
+</body>
+</html>
