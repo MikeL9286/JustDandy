@@ -479,25 +479,10 @@ div.broken > a:hover{
 
 .Portal
 {
-    height: 300px;
-    width: 306px;
+    height: 140px;
+    width: 188px;
     margin-top: 10px;
     overflow: hidden;
-}
-
-.blogPortal
-{
-    margin-right: 10px;
-}
-
-.shopPortal
-{
-    margin-right: 10px;
-}
-
-.aboutPortal
-{
-    /* about portal styles */
 }
 
 .Portal img
@@ -523,7 +508,8 @@ div.broken > a:hover{
     width: 100px;
     opacity: .8;
     height: 50px;
-    background: url('../../Images/pinkTape.png') no-repeat;
+    /*background: url('../../Images/pinkTape.png') no-repeat;*/
+	background-color: grey;
     transform: rotate(-4deg);
     -moz-transform: rotate(-4deg);
     -webkit-transform: rotate(-4deg);
