@@ -14,7 +14,8 @@
 </head>
 <body>
     <section class="SocialIcons">
-        @Html.Partial("SocialIcons")
+		<!--Social Media Icons-->
+		<?php include('views/SocialIcons.html'); ?>
     </section>
     <div class="ContentWrapper">
         <div class="Content">
@@ -33,7 +34,9 @@
                 </nav>
             </header>
             <div id="body">
-                @RenderBody()
+				portals
+				slideshow
+				<br style="clear: both" />
             </div>
         </div>
     </div>
