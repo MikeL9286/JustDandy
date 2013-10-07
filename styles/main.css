@@ -483,6 +483,7 @@ div.broken > a:hover{
     height: 135px;
     width: 183px;
     overflow: hidden;
+	margin-right: -4px;
 }
 
 .Portal img
