@@ -480,10 +480,10 @@ div.broken > a:hover{
 .Portal
 {
 	display: inline-block;
-    height: 135px;
-    width: 183px;
+    height: 140px;
+    width: 189px;
     overflow: hidden;
-	margin-right: -4px;
+	margin-right: -6px;
 }
 
 .Portal img
