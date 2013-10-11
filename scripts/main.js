@@ -1,5 +1,6 @@
 
 (function LoadPartialViews() {
 	//$('section.SocialIcons').load('SocialIcons.html');
-	//$('section.SocialIcons').load('SlideShow.html');
+	$('div#portalContainer').load('views/Portals.html');
+	$('div#slideshowContainer').load('views/SlideShow.html');
 })();
