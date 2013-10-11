@@ -30,7 +30,9 @@
 				<script>
 					var portals = $('div#body').load('views/Portals.html');
 					var slideshow = $('div#body').load('views/SlideShow.html');
-					$('div#body').append(portals).append(slideshow);
+					$('div#body').append(portals);
+					alert('loaded portals');
+					$('div#body').append(slideshow);
 				</script>
 				<!--Portals-->
 				<!-- <script>$('div#body').load('views/Portals.html');</script> -->
