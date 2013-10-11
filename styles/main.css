@@ -71,11 +71,6 @@ header:after
     clear: both;
 }
 
-header > div
-{
-    float: left;
-}
-
 nav
 {
     float: left;
