@@ -27,8 +27,15 @@
                 </div>
             </header>
             <div id="body">
-				<script>$('div#body').load('views/Portals.html');</script>
-				<script>$('div#body').load('views/SlideShow.html');</script>
+				<script>
+					var portals = $('div#body').load('views/Portals.html');
+					var slideshow = $('div#body').load('views/SlideShow.html');
+					$('div#body').append(portals).append(slideshow);
+				</script>
+				<!--Portals-->
+				<!-- <script>$('div#body').load('views/Portals.html');</script> -->
+				<!--Slideshow-->
+				<!-- <script>$('div#body').load('views/SlideShow.html');</script> -->
 				<br style="clear: both" />
             </div>
         </div>
