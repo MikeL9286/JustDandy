@@ -12,7 +12,7 @@ div.ContentWrapper
 {
     width: 960px;
     height: 100%;
-    margin: 55px auto 5px auto;
+    margin: 40px auto 5px auto;
     border: 5px solid #fff;
     box-shadow: 0 0 10px rgba(198, 198, 197, 0.9);
     -moz-box-shadow: 0 0 10px rgba(198, 198, 197, 0.9);
@@ -51,6 +51,11 @@ a img
 a:link, a:visited, a:active, a:hover
 {
     text-decoration: none;
+}
+
+header
+{
+	margin: 20px 0 10px 0;
 }
 
 header, footer, hgroup, section
@@ -552,7 +557,7 @@ ul
 {
     position: fixed;
     top: 0px;
-    height: 50px;
+    height: 30px;
     width: 100%;
     background-color: #FC3953;
     text-align: center;
@@ -561,7 +566,7 @@ ul
 
 .SocialIcons ul
 {
-    padding-top: 15px;
+    padding-top: 7px;
     list-style-type: none;
     -webkit-padding-start: 0;
     -webkit-margin-before: 0;
@@ -569,7 +574,7 @@ ul
     height: 100%;
     width: 960px;
     margin: 0 auto 0 auto;
-    text-align: right;
+    text-align: center;
 }
 
 .SocialIcons ul > li
