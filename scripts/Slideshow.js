@@ -95,7 +95,7 @@
 
     function ChangeBlob() {
         $('.SlideBlobs li[data-slideFor=' + currentSlide.attr('id') + ']').removeAttr('style');
-        $('.SlideBlobs li[data-slideFor=' + nextSlide.attr('id') + ']').attr('style', 'background-color:#f9bac3');
+        $('.SlideBlobs li[data-slideFor=' + nextSlide.attr('id') + ']').attr('style', 'background-color:#FC3953');
     }
 
 } (window.Slideshow = window.Slideshow || {}, jQuery))
